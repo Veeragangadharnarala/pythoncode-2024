@@ -1,0 +1,16 @@
+Python Code : 
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+print("Arun's house is located at({:.1f},{:.1f})".format((x1+x2)/2,(y1+y2)/2))
+
+input :
+2
+3
+4
+5
+6
+
+ output : 
+ Arun's house is located at(3.0,4.0)
