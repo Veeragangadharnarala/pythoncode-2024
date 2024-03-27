@@ -1,0 +1,10 @@
+Python Code : a=int(input())
+b=int(input())
+c=int(input())
+p=(a*b)-(a*c)-100
+print(p)
+input :
+1000
+3
+7
+output : -4100
