@@ -1,0 +1,16 @@
+spliting into the team's Python Code :
+
+friends = int(input())
+teams = int(input())
+friends_per_team = friends // teams
+left_out = friends % teams
+print("The number of friends in each team is", friends_per_team, "and left out is", left_out)
+ 
+Input :
+60
+8
+
+Expected Output :
+The number of friends in each team is 7 and left out is 4
+ 
+ 
