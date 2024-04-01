@@ -1,0 +1,30 @@
+Operators - Debt Repay python code : 
+
+Input:
+
+p=float(input())
+r=float(input())
+n = float(input())
+si = (p * n * r) / 100
+a = si + p
+d = si * 0.02
+f = a - d
+print("%.2f" % si)
+print("%.2f" % a)
+print("%.2f" % d)
+print("%.2f" % f)
+
+Sample Input 1 :
+
+40
+1
+10
+
+Sample Output 1 :
+
+4.00
+44.00
+0.08
+43.92
+ 
+ 
