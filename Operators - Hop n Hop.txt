@@ -1,0 +1,20 @@
+Operators - Hop n Hop
+
+input :
+
+import math
+x=int(input())
+y=int(input())
+d=int(math.sqrt(math.pow(x-3,2)+math.pow(y-4,2)))
+print(d)
+
+output :
+
+Sample Input 0
+
+5 
+10 
+
+Sample Output 0
+
+6
