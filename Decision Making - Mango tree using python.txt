@@ -1,0 +1,22 @@
+Decision Making - Mango tree :
+
+input :
+
+r=int(input())
+c = int(input())
+t = int(input())
+if t <= c or t % c == 1 or t % c == 0:
+    print("Yes")
+else:
+    print("No")
+11<=5  or 1 or 0
+
+Sample Input 0 :
+
+5
+5
+11
+
+Sample Output 0 :
+
+Yes
