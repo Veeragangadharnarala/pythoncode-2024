@@ -1,0 +1,16 @@
+ Tic Tac Toe by python 
+
+input :
+
+n = int(input().strip())
+row = (n - 1) // 3
+col = (n - 1) % 3
+print(row, col)
+
+Sample Input 1
+
+9
+
+Sample Output 1
+
+2 2
