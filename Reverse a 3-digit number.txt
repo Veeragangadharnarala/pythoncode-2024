@@ -1,0 +1,19 @@
+Operators - Reverse a 3-digit number
+
+input :
+
+n = int(input())
+a = n // 100
+b = (n % 100) // 10
+c = (n % 10)
+rev = c * 100 + b * 10 + a
+print(rev)
+
+Sample Input 1
+
+123
+
+Sample Output 1
+
+321
+
