@@ -1,0 +1,21 @@
+Checking Alphabets
+
+input :
+
+input_char = input()
+if input_char.isalpha():
+  if input_char in 'aeiouAEIOU':
+    print("Vowel")
+  else:
+    print("Consonant")
+else:
+  print("Not an alphabet")
+
+
+Sample Input 1
+
+Z
+
+Sample Output 1
+
+Consonant
