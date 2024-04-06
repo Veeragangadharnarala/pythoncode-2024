@@ -1,0 +1,22 @@
+Electricity Bill
+
+input :
+
+input_units = int(input())
+if input_units <= 200:
+  bill = input_units * 0.5
+elif input_units <= 400:
+  bill = input_units * 0.65 + 100
+elif input_units <= 600:
+  bill = input_units * 0.80 + 200
+elif input_units > 600:
+  bill = input_units * 1.25 + 425
+print("Rs." + str(int(bill)))
+
+Sample Input 0
+
+200
+
+Sample Output 0
+
+Rs.100
