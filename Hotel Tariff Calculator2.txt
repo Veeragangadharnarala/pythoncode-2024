@@ -1,0 +1,25 @@
+ Hotel Tariff Calculator problem by using :
+
+input :
+
+month = int(input())
+rent =int(input())
+days =int(input())
+if month in[4,5,6,11,12]:
+    amount = (rent*(100+20)//100)*days
+    print(amount)
+elif month in [1,2,3,7,8,9,10]:
+    amount = rent * days
+    print(amount)
+else:
+    print("Invalid Input")
+
+Sample Input 1
+
+14
+1500
+2
+
+Sample Output 1
+
+Invalid Input
