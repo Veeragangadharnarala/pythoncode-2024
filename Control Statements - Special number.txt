@@ -1,0 +1,12 @@
+Control Statements - Special number
+
+input:
+
+m= int(input())
+n= int(input())
+for i in range(m,n+1):
+    if i <=99:
+        sum = i % 10 + i // 10
+        prod =(i % 10) * (i //10)
+        if sum + prod == i:
+            print(i)
