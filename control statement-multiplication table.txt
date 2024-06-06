@@ -1,0 +1,10 @@
+Control Statements - Multiplication Table
+
+input :
+print("Enter n")
+n = int(input())
+print("Enter m")
+m = int(input())
+print("The multiplication table of", n,"is")
+for i in range(1, m+1):
+      print(i,"*",n,"=",n*i,sep="")
