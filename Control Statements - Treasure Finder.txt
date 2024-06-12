@@ -1,0 +1,26 @@
+Control Statements - Hollow square pattern:
+a = int(input())
+b = int(input())
+c = int(input())
+if a > b and a > c:
+    if b > c:
+        print("The treasure is in the box which has the number " + str(b))
+    else:
+        print("The treasure is in the box which has the number " + str(c))
+elif b > a and b > c:
+    if a > c:
+        print("The treasure is in the box which has the number " + str(a))
+    else:
+        print("The treasure is in the box which has the number " + str(c))
+else:
+    if a > b:
+        print("The treasure is in the box which has the number " + str(a))
+    else:
+        print("The treasure is in the box which has the number " + str(b))
+min_num = min(a, b, c)
+hcf = 0
+for i in range(min_num, 0, -1):
+    if a % i == 0 and b % i == 0 and c % i == 0:
+        hcf = i
+        break
+print("The code to open the box is " + str(hcf))
