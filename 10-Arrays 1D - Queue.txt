@@ -1,0 +1,15 @@
+10-Arrays 1D - Queue
+input:
+n, m = map(int, input().split())
+a = list(map(int, input().split()))
+bus=0
+sum=0
+for i in range(n):
+    if sum+a[i]>m:
+        bus=bus+1
+        sum=a[i]
+    else:
+        sum=sum+a[i]
+if sum>0: 
+    bus=bus+1
+    print(bus)
